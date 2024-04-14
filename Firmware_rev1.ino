@@ -9,8 +9,8 @@
 #define PIN_BUTTON 21 // button pin
 #define PRESSURE_SENSOR 1
 
-const char *ssid_Router     = "BELL876"; //Enter the router name
-const char *password_Router = "5513DFA6"; //Enter the router password
+const char *ssid_Router     = "*****"; //Enter the router name
+const char *password_Router = "*****"; //Enter the router password
 int analogValue = 0;
 bool activatePumps = false;
 
