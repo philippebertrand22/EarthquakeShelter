@@ -23,8 +23,8 @@
 #define PRESSURE_SENSOR_LEFT 5 //pressure sensor pin
 #define PRESSURE_SENSOR_RIGHT 6 //pressure sensor pin
 
-const char *ssid_Router     = "Pixel_7107"; //Enter the router name
-const char *password_Router = "jesus0214"; //Enter the router password
+const char *ssid_Router     = "******"; //Enter the router name
+const char *password_Router = "******"; //Enter the router password
 bool activatePumps = false;
 int ADCval1;
 int ADCval2;
