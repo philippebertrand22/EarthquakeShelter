@@ -30,8 +30,8 @@
 #define MIN_RIGHT_LEFT_PRESSURE 2200 // (10PSI  ADC value -> (1.8V*4095)/3.3V)
 
 WiFiUDP Udp;
-const char *ssid_Router     = "Pixel_7107"; //Enter the router name
-const char *password_Router = "jesus0214"; //Enter the router password
+const char *ssid_Router     = "******"; //Enter the router name
+const char *password_Router = "******"; //Enter the router password
 unsigned int localUdpPort = 4210;  // local port to listen on
 
 bool inflateTop = false;
