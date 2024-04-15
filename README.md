@@ -10,8 +10,7 @@ The schematic for the circuit designed for realizing seismic detection and prote
 ![PCB schematic](https://github.com/philippebertrand22/EarthquakeShelter/assets/76165234/88513902-fa1a-4b3d-8e53-f62d0e889891)
 
 The schematic design was implemented and tested with permanent soldered connections on a perfboard. Images of the prototype circuit are appended below for reference.
-![1](https://github.com/philippebertrand22/EarthquakeShelter/assets/76165234/093272b9-4899-4499-9c21-e5dc3418b19d)
-![PXL_20240315_002428831](https://github.com/philippebertrand22/EarthquakeShelter/assets/76165234/4cba549c-cfe4-4fb9-a928-e811e01abc12)
+![1](https://github.com/philippebertrand22/EarthquakeShelter/assets/76165234/093272b9-4899-4499-9c21-e5dc3418b19d)![PXL_20240315_002428831](https://github.com/philippebertrand22/EarthquakeShelter/assets/76165234/4cba549c-cfe4-4fb9-a928-e811e01abc12)
 
 Pinout of Microcontroller (FREENOVE ESP32-S3 WROOM) 
 ![ESP32S3_Pinout](https://github.com/philippebertrand22/EarthquakeShelter/assets/76165234/31b758d3-8733-4406-9b2d-eed88cecc12b)
