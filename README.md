@@ -18,6 +18,8 @@ Pinout of Microcontroller (FREENOVE ESP32-S3 WROOM)
 
 The seismic validation script written in python was the last software component in development for validating rsudp alarms using data from nearby sensors. The script accepts stationIDs from the RaspberryShake stationView web app. the program must receive at least three arguments, corresponding to primary_station_id and a set of secondary_station_ids. This Python script sets up a UDP server to receive messages, particularly those starting with "ALARM." Upon receiving such messages, it queries seismic data from a specified endpoint for a primary station and a list of secondary stations provided as command-line arguments. It then compares the seismic data from the primary station with the averages of the corresponding data from the secondary stations. If the differences in acceleration, velocity, and displacement are within 5% of the primary station's values, the script forwards the original message to another port specified as FORWARD_PORT. Otherwise, it logs that the secondary station data is not sufficiently similar to the primary station data. The script continuously listens for incoming packets while running.
 
+Link to google drives containing testing and demo videos: https://drive.google.com/drive/folders/1VR3CLco1Exn31kqTaU0LVINPW9i3hZGr
+
 https://github.com/raspishake/rsudp
 rsudp: a tool for receiving and interacting with data casts from Raspberry Shake personal seismographs and Raspberry Boom pressure transducer instruments.
 Continuous sudden motion and visual monitoring of Raspberry Shake data
